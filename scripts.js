@@ -1,3 +1,8 @@
+window.onkeydown = function (){
+	highlight();
+};
+
+
 function textColor() {
 	document.getElementById("id1").style.color = "red";
 }
@@ -34,4 +39,9 @@ function rot13() {
 
 		document.getElementById("rot13").textContent = rot13Text;
 
+}
+
+
+function highlight() {
+	document.getElementById("highlight").style.backgroundColor = '#fdff32';
 }
